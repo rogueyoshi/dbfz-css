@@ -1,3 +1,3 @@
-# dbfz.css
+# DBFZ.css
 A work-in-progress recreation of DBFZ's UI elements in CSS.
-## [Demo](https://www.rogueyoshi.com/dbfz-css)
+## [Demo](https://rogueyoshi.com/dbfz-css)
