@@ -10,13 +10,17 @@ ul {
   list-style-type: none;
 }
 
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
 a {
   color: var(--dbfz-color-yellow);
 }
 
-img {
-  width: 100%;
-  object-fit: contain;
+.dbfz-selected a {
+  color: var(--dbfz-color-white);
 }
 
 .dbfz-window {

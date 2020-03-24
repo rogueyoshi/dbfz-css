@@ -97,7 +97,7 @@
 
 .dbfz-selected {
   position: relative;
-  color: var(--dbfz-color-white) !important;
+  color: var(--dbfz-color-white);
 }
 
 .dbfz-selected:before {
