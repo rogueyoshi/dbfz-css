@@ -1,0 +1,26 @@
+body {
+  padding-bottom: 1em;
+}
+
+h1, ul {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: var(--dbfz-color-yellow);
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.dbfz-window {
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
