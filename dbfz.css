@@ -17,6 +17,15 @@
   --dbfz-color-yellow: #ffba00;
 }
 
+.dbfz-text-primary {
+  text-shadow: 0.1em 0.1em black;  
+}
+
+.dbfz-text-secondary {
+  font-family: "ProbaPro-Regular";
+  text-shadow: 0.1em 0.1em black;
+}
+
 .dbfz-color-white {
   color: var(--dbfz-color-white);
 }
@@ -26,11 +35,9 @@
 }
 
 .dbfz-window {
+  font-size: 200%;
   position: relative;
   padding: 6px;
-  font-size: 200%;
-  font-family: "ProbaPro-Regular";
-  text-shadow: 0.1em 0.1em black;
   color: var(--dbfz-color-white);
 }
 
@@ -122,10 +129,12 @@
 .dbfz-selected:after {
   content: "";
   position: absolute;
-  left: -2.75rem;
-  top: -0.5rem;
-  width: 1.5em;
-  height: 1.5em;
+  left: 0;
+  top: 0;
+  width: 2em;
+  height: 2em;
+  margin-left: -2em;
+  margin-top: -0.25em;
   background-image: url("images/DBFZ/CmnMenu/tex/window_arrow_key_00.png");
   background-repeat: repeat;
   background-size: contain;

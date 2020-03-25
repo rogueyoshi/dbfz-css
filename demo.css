@@ -9,6 +9,7 @@ h1, ul {
 
 ul {
   list-style-type: none;
+  padding-left: 2em;
 }
 
 img {
