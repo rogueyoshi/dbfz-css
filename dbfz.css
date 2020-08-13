@@ -18,12 +18,14 @@
 }
 
 .dbfz-text-primary {
-  text-shadow: 0.1em 0.1em black;  
+  text-shadow: 0.1em 0.1em black;
+  color: var(--dbfz-color-white);
 }
 
 .dbfz-text-secondary {
   font-family: "ProbaPro-Regular";
   text-shadow: 0.1em 0.1em black;
+  color: var(--dbfz-color-white);
 }
 
 .dbfz-color-white {
@@ -38,7 +40,18 @@
   font-size: 200%;
   position: relative;
   padding: 6px;
-  color: var(--dbfz-color-white);
+  animation: dbfz-window 0.5s;
+}
+
+@keyframes dbfz-window {
+  from {
+    margin-top: -4em;
+    opacity: 0;
+  }
+  to   {
+    margin-top: 0;
+    opacity: 1;
+  }
 }
 
 .dbfz-window:before {
@@ -73,6 +86,7 @@
 
 .dbfz-window-title {
   position: relative;
+  width: 100%;
 }
 
 .dbfz-window-title:before {
@@ -105,6 +119,7 @@
 .dbfz-selected {
   position: relative;
   color: var(--dbfz-color-white);
+  margin-left: 2em;
 }
 
 .dbfz-selected:before {
@@ -114,6 +129,8 @@
   left: 0;
   bottom: 0;
   right: 0;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
   background-image: url("images/DBFZ/CmnMenu/tex/window_arrow_key_01.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
