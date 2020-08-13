@@ -119,7 +119,7 @@
 .dbfz-selected {
   position: relative;
   color: var(--dbfz-color-white);
-  margin-left: 2em;
+  --margin-left: 2em;
 }
 
 .dbfz-selected:before {
