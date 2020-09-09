@@ -87,6 +87,7 @@
 .dbfz-window-title {
   position: relative;
   width: 100%;
+  margin: 0;
 }
 
 .dbfz-window-title:before {
