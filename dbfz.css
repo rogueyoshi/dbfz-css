@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'DragonBallFighterz-Regular';
-  src: url('fonts/DragonBallFighterz-Regular.otf') format('opentype');
+  src: url('./fonts/DragonBallFighterz-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
     font-family: 'ProbaPro-Regular';
-    src: url('fonts/ProbaPro-Regular.otf') format('opentype');
+    src: url('./fonts/ProbaPro-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -63,7 +63,7 @@
   right: 0;
   border-style: solid;
   border-width: 6px;
-  border-image: url("images/DBFZ/CmnMenu/tex/window_bg_01.png") 6 fill stretch;
+  border-image: url("./images/DBFZ/CmnMenu/tex/window_bg_01.png") 6 fill stretch;
   z-index: -4;
 }
 
@@ -74,14 +74,14 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url("images/DBFZ/CmnMenu/tex/window_bg_02.png");
+  background-image: url("./images/DBFZ/CmnMenu/tex/window_bg_02.png");
   background-repeat: repeat;
   background-size: 14px 918px;
   z-index: -3;
 }
 
 .dbfz-window-orange:before {
-  border-image: url("images/DBFZ/CmnMenu/tex/window_bg_01_orange.png") 6 fill stretch;
+  border-image: url("./images/DBFZ/CmnMenu/tex/window_bg_01_orange.png") 6 fill stretch;
 }
 
 .dbfz-window-title {
@@ -97,7 +97,7 @@
   top: 0;
   bottom: 0;
   margin: 0 3px;
-  background-image: url("images/DBFZ/CmnMenu/tex/window_title_00.png");
+  background-image: url("./images/DBFZ/CmnMenu/tex/window_title_00.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: -2;
@@ -110,7 +110,7 @@
   top: -40px;
   width: 256px;
   height: 128px;
-  background-image: url("images/DBFZ/CmnMenu/tex/window_title_01.png");
+  background-image: url("./images/DBFZ/CmnMenu/tex/window_title_01.png");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -131,7 +131,7 @@
   right: 0;
   margin-left: -0.5em;
   margin-right: -0.5em;
-  background-image: url("images/DBFZ/CmnMenu/tex/window_arrow_key_01.png");
+  background-image: url("./images/DBFZ/CmnMenu/tex/window_arrow_key_01.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: -1;
@@ -152,7 +152,7 @@
   height: 2em;
   margin-left: -2em;
   margin-top: -0.25em;
-  background-image: url("images/DBFZ/CmnMenu/tex/window_arrow_key_00.png");
+  background-image: url("./images/DBFZ/CmnMenu/tex/window_arrow_key_00.png");
   background-repeat: repeat;
   background-size: contain;
 }
