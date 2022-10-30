@@ -1,6 +1,6 @@
 {
   "name": "dbfz-css",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "description": "A work-in-progress recreation of Dragon Ball FighterZ's UI elements in CSS.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
