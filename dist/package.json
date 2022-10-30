@@ -1,6 +1,6 @@
 {
   "name": "dbfz-css",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A work-in-progress recreation of Dragon Ball FighterZ's UI elements in CSS.",
   "main": "index.js",
   "scripts": {
