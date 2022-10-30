@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/rogueyoshi/dbfz-css/issues"
   },
-  "homepage": "https://github.com/rogueyoshi/dbfz-css#readme"
+  "homepage": "https://github.com/rogueyoshi/dbfz-css#readme",
+  "exports": {
+    "./dist/index.css": {
+      "import": "./index.css",
+      "require": "./index.css"
+    }
+  }
 }
