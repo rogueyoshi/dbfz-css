@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'DragonBallFighterz-Regular';
-  src: url('fonts/DragonBallFighterz-Regular.otf') format('opentype');
+  font-family: "DragonBallFighterz-Regular";
+  src: url("fonts/DragonBallFighterz-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-    font-family: 'ProbaPro-Regular';
-    src: url('fonts/ProbaPro-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "ProbaPro-Regular";
+  src: url("fonts/ProbaPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
@@ -37,7 +37,7 @@
 }
 
 .dbfz-window {
-  font-size: 200%;
+  font-size: 2rem;
   position: relative;
   padding: 6px;
   animation: dbfz-window 0.5s;
@@ -48,7 +48,7 @@
     margin-top: -4em;
     opacity: 0;
   }
-  to   {
+  to {
     margin-top: 0;
     opacity: 1;
   }
@@ -81,7 +81,8 @@
 }
 
 .dbfz-window-orange:before {
-  border-image: url("images/DBFZ/CmnMenu/tex/window_bg_01_orange.png") 6 fill stretch;
+  border-image: url("images/DBFZ/CmnMenu/tex/window_bg_01_orange.png") 6 fill
+    stretch;
 }
 
 .dbfz-window-title {
@@ -140,8 +141,12 @@
 }
 
 @keyframes dbfz-selected {
-  0%   { opacity: 0.5; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .dbfz-selected:after {
