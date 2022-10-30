@@ -1,0 +1,27 @@
+{
+  "name": "dbfz-css",
+  "version": "0.3.0",
+  "description": "A work-in-progress recreation of Dragon Ball FighterZ's UI elements in CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogueyoshi/dbfz-css.git"
+  },
+  "keywords": [
+    "dbfz",
+    "dragon",
+    "ball",
+    "fighterz",
+    "css",
+    "rogueyoshi"
+  ],
+  "author": "rogueyoshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogueyoshi/dbfz-css/issues"
+  },
+  "homepage": "https://github.com/rogueyoshi/dbfz-css#readme"
+}
